@@ -1,0 +1,46 @@
+[
+  {
+    "method": "get",
+    "url": "/api/mock/get/test",
+    "status": 200,
+    "delay": 2000,
+    "response": {
+      "id|10": "1",
+      "name|5": "sa",
+      "age": 29,
+      "baby|1": false,   
+      "array|6": [1, 2, 3],
+      "wife": {
+        "a|1-6": "aa",
+        "b|3-5": "bb"
+      },
+      "ip1|ip": "",
+      "email1|email": "",
+      "province1|province": "",
+      "city1|city": "",
+      "time|datetime":""
+    }
+  },
+  {
+    "method": "post",
+    "url": "/api/mock/post/test",
+    "status": 200,
+    "delay": 2000,
+    "response": {
+      "id|10": "1",
+      "name|5": "sa",
+      "age": 29,
+      "baby|1": false,   
+      "array|6": [1, 2, 3],
+      "wife": {
+        "a|1-6": "aa",
+        "b|3-5": "bb"
+      },
+      "ip1|ip": "",
+      "email1|email": "",
+      "province1|province": "",
+      "city1|city": "",
+      "time|datetime":""
+    }
+  }
+]
